@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.NotNull;
-
 import java.awt.*;
 
 public class Score extends Rectangle {
