@@ -7,7 +7,7 @@ import java.util.Random;
 @SuppressWarnings("InfiniteLoopStatement")
 public class MainPanel extends JPanel implements Runnable { //Runnable means that there is a thread that needs to run
     static final int GAME_WIDTH = 1000; //Makes sure the width of the game is not modifiable
-    static final int GAME_HEIGHT = 550; //Ping pong tables are usually more wide than tall
+    static final int GAME_HEIGHT = 550;
     static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT); //Creates the dimensions of the screen
     static final int BALL_DIAMETER = 20;
     static final int PADDLE_WIDTH = 25;
